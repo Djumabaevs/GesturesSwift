@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var timerLabel: UILabel!
+    var timer = Timer()
 
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var myImage: UIImageView!
@@ -37,6 +40,9 @@ class ViewController: UIViewController {
         
     }
 
-
+    @IBAction func buttonStart(_ sender: Any) {
+        
+    }
+    
 }
 
